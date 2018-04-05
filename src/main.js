@@ -3,6 +3,17 @@ import ListItem from './components/ListItem';
 import Detail from './components/Detail';
 import Form from './components/Form';
 import './main.css';
+import './notifications';
+
+if ('serviceWorker' in navigator && 'PushManager' in window) {
+  navigator.serviceWorker.register('firebase-messaging-sw.js')
+    .then(() => {
+      console.log('service worker registered');
+    })
+    .catch(err => {
+      console.log('oh nooooo', err);
+    });
+}
 
 const contentContainer = document.querySelector('#content-container');
 const router = new Navigo();

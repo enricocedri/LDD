@@ -213,7 +213,7 @@ messaging.setBackgroundMessageHandler(payload => {
 Pass the generated token as key
 
 ```shell
-curl -X POST -H "Authorization: key=AAAAyNTjBhE:APA91bHTE7-AGbudM4Tqhx9XlHejUop-LOUfqF7B2XHHJFlTEvKMT6xbNP2d2v73CXgpTzref8cMD7fy606KA0JqaK6_aaGOM91hh0SrIE-RJ0Dx3uvgjBmH9TNhy_UZBR-G-4WHL5KK" -H "Content-Type: application/json" -d '{
+curl -X POST -H "Authorization: key=dUOJlbdWCkQ:APA91bG7j82a0UFmMokvOc7CYO66F1bkwtPc_jcJNJK30kk7qcIbI2XpxR8HyqYogiws2LgYkPpH7BvY8xAxKjY-Q5FQ0hbu6be488a04GPLoIw2CxXD41jwTtRreEje3QPEWfWv4tJx" -H "Content-Type: application/json" -d '{
   "notification": {
     "title": "Hello!",
     "body": "This is my first Message",

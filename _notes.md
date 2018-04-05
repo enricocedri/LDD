@@ -213,12 +213,12 @@ messaging.setBackgroundMessageHandler(payload => {
 Pass the generated token as key
 
 ```shell
-curl -X POST -H "Authorization: key=dUOJlbdWCkQ:APA91bG7j82a0UFmMokvOc7CYO66F1bkwtPc_jcJNJK30kk7qcIbI2XpxR8HyqYogiws2LgYkPpH7BvY8xAxKjY-Q5FQ0hbu6be488a04GPLoIw2CxXD41jwTtRreEje3QPEWfWv4tJx" -H "Content-Type: application/json" -d '{
+curl -X POST -H "Authorization: key=AAAAw6xlmHM:APA91bEtSHPPVlSBejqp6cSFawgbQEH8rZgqAwrltzfWOzT_gmZtfyUEN47fMuoUfvB-eP5cpMMCQAjc5GXEkaWpCvkQMkr_pwvNOraSQCEWgZe8dalP95Aok9m15ZK9kvzgGOxLi_Ya" -H "Content-Type: application/json" -d '{
   "notification": {
-    "title": "Hello!",
-    "body": "This is my first Message",
+    "title": "Web Application",
+    "body": "Hai ricevuto una nuova notifica",
   },
-  "to": "eDusaLgjcg8:APA91bHOulqekmoZCBq0MU2wbZR5X9FVCGJrb_To2UyxbEHKzPYWSJOlumnsaZDj0rd4c6q5TCmSl2K7Zs4aYBEfL-2hpsISY7QmvfdERmUfsB1s50or94GHizhDlUhemR-wzXhpzIAd"
+  "to": "dUOJlbdWCkQ:APA91bG7j82a0UFmMokvOc7CYO66F1bkwtPc_jcJNJK30kk7qcIbI2XpxR8HyqYogiws2LgYkPpH7BvY8xAxKjY-Q5FQ0hbu6be488a04GPLoIw2CxXD41jwTtRreEje3QPEWfWv4tJx"
 }' "https://fcm.googleapis.com/fcm/send"
 ```
 

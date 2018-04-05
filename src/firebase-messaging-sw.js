@@ -10,10 +10,6 @@ firebase.initializeApp({
 
 const messaging = firebase.messaging();
 
-messaging.setBackgroundMessageHandler(paylod => {
-    console.log('[FB messaging] receiving bg message', paylod);
-    return self.registration.showNotification(
-        notificationTitle,
-        notificationOptions
-    )
+messaging.setBackgroundMessageHandler(payload => {
+    console.log('[FB messaging] receiving bg message', payload);
 });

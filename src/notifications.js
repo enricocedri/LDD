@@ -21,3 +21,7 @@ messaging
         return messaging.getToken().then( token => console.log("token", token) );
     })
     .catch( err => console.log("Permission denied", err));
+
+messaging.onMessage( payload => {
+ console.log("on message", payload)
+});
